@@ -34,7 +34,7 @@ function closePreview() {
 }
 
 function homeLink() {
-	widnow.location = "./index.html";
+	window.location = "./index.html";
 }
 
 function aboutLink() {

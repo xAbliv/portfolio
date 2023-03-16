@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Projects
+    </title>
+    <link rel="stylesheet" href="./projects.css">
+  </head>
+  <body>
+    <nav id="nav">
+      <ul>
+        <li id="llnk" onclick="homeLink()">xabliv
+        </li>
+        <span id="navR">
+          <li class="navlnk" id="active">Projects
+          </li>
+          <li class="navlnk" onclick="aboutlink()">About Me
+          </li>
+          <li class="navlnk" onclick="contactlink()">Contact Me
+          </li>
+        </span>
+      </ul>
+    </nav>
+    <section id="section">
+      <header>
+        <h1 id="projectsTitle">Projects
+        </h1>
+      </header>
+      <div id="main">
+        <div class="item" id="clock">
+          <div id="previewContainer">
+            <p class="previewButton" onclick="previewClock()">Preview &rsaquo;
+            </p>
+          </div>
+          <span class="exp">
+            <h4>Digital Clock
+            </h4>
+            <p>A digital clock featuring 3 interactive backgrounds.
+            </p>
+          </span>
+        </div>
+        <div class="item" id="calc">
+          <div id="previewContainer">
+            <p class="previewButton" onclick="previewCalc()">Preview &rsaquo;
+            </p>
+          </div>
+          <span class="exp">
+            <h4>Calculator
+            </h4>
+            <p>A simplistic four function calculator.
+            </p>
+          </span>
+        </div>
+        <div class="item" id="converter">
+          <div id="previewContainer">
+            <p class="previewButton" onclick="previewConverter()">Preview &rsaquo;
+            </p>
+          </div>
+          <span class="exp">
+            <h4>Unit Converter
+            </h4>
+            <p>Capable of converting between feet, meters, miles and kilometers.
+            </p>
+          </span>
+        </div>
+      </div>
+    </section>
+    <div id="clockEmbed" class="previewFrame">
+      <h2 class="embedTitle">Digital Clock
+      </h2>
+      <iframe src="https://xabliv.github.io/clock/" class="embedFrame">
+      </iframe>
+      <p class="embedButton closeBut" onclick="closePreview()">Close
+      </p>
+      <a href="https://xabliv.github.io/clock/" target="_blank">
+        <p class="embedButton goBut">Take me there  &rsaquo;
+        </p>
+      </a>
+    </div>
+    <div id="calcEmbed" class="previewFrame">
+      <h2 class="embedTitle">Calculator
+      </h2>
+      <iframe src="https://xabliv.github.io/calculator/" class="embedFrame">
+      </iframe>
+      <p class="embedButton closeBut" onclick="closePreview()">Close
+      </p>
+      <a href="https://xabliv.github.io/calculator/" target="_blank">
+        <p class="embedButton goBut">Take me there  &rsaquo;
+        </p>
+      </a>
+    </div>
+    <div id="converterEmbed" class="previewFrame">
+      <h2 class="embedTitle">Unit Converter Preview
+      </h2>
+      <iframe src="https://xabliv.github.io/unitconverter/" class="embedFrame">
+      </iframe>
+      <p class="embedButton closeBut" onclick="closePreview()">Close
+      </p>
+      <a href="https://xabliv.github.io/unitconverter/" target="_blank">
+        <p class="embedButton goBut">Take me there  &rsaquo;
+        </p>
+      </a>
+    </div>
+    <script src="projects.js">
+    </script>
+  </body>
+</html>

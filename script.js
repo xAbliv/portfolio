@@ -1,4 +1,4 @@
-const phrases = ["xabliv", "HTML, XML, CSS, SCSS, JS, react.js"];
+const phrases = ["xabliv", "HTML, XML, CSS, SCSS, SASS, JS, react.js"];
 const textElement = document.querySelector('.text');
 const cursor = document.querySelector('.cursor');
 let phraseIndex = 0;

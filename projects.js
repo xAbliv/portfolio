@@ -37,10 +37,10 @@ function homeLink() {
 	window.location = "./index.html";
 }
 
-function aboutLink() {
+function aboutlink() {
 	window.location = "./about.html";
 }
 
-function contactLink() {
+function contactlink() {
 	window.location = "./contact.html";
 }
